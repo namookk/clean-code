@@ -1,6 +1,10 @@
 package com.houseutils.policy;
 
-//매매일 때 중개수수료를 계산해주는 클래스
+/**
+ * @author namookk
+ *
+ * 매매일 때 중개수수료를 계산해주는 클래스
+ */
 public class PurchaseBrokeragePolicy implements BrokeragePolicy {
 
     public BrokerageRule createBrokerageRule(Long price){

@@ -2,6 +2,9 @@ package com.houseutils.policy;
 
 import com.houseutils.constants.ActionType;
 
+/**
+ * @author namookk
+ */
 public class BrokeragePolicyFactory {
 
     public static BrokeragePolicy of(ActionType actionType){

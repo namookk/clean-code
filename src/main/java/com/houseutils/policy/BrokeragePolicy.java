@@ -1,5 +1,8 @@
 package com.houseutils.policy;
 
+/**
+ * @author namookk
+ */
 public interface BrokeragePolicy {
     BrokerageRule createBrokerageRule(Long price);
 
